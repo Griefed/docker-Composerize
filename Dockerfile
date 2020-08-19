@@ -1,6 +1,5 @@
 FROM httpd:2.4.46-alpine
 
-MAINTAINER Griefed
 LABEL maintainer="Griefed <griefed@griefed.de>"
 
 RUN apk update && \
