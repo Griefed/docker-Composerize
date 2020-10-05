@@ -1,6 +1,12 @@
 # Composerize-Container
 https://github.com/magicmark/composerize in a container!
 
+![Docker Pulls](https://img.shields.io/docker/pulls/griefed/composerize?style=flat-square)
+![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/griefed/composerize?label=Image%20size&sort=date&style=flat-square)
+![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/griefed/composerize?label=Docker%20build&style=flat-square)
+![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/griefed/composerize?label=Docker%20build&style=flat-square)
+![GitHub Repo stars](https://img.shields.io/github/stars/Griefed/docker-Composerize?label=GitHub%20Stars&style=social)
+![GitHub forks](https://img.shields.io/github/forks/Griefed/docker-Composerize?label=GitHub%20Forks&style=social)
 
 Creates a Container which runs [magicmark's](https://github.com/magicmark/) [Composerize](https://github.com/magicmark/composerize), with [httpd:2.4.46-alpine image](https://hub.docker.com/_/httpd) as the base image, as seen on https://www.composerize.com/
 
