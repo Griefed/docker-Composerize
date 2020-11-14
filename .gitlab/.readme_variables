@@ -1,5 +1,7 @@
 export GITHUB_REPONAME='docker-template-repo'
 export GITHUB_USERNAME='username'
+export GITHUB_REPONAME_HEADER='docker-Composerize_header.png'
+export GITHUB_REPONAME_SCREENSHOT='docker-Composerize_screenshot.png'
 export DOCKERHUB_REPONAME='template-repo'
 export DOCKERHUB_TAG='tag'
 export DOCKERHUB_USERNAME='username'

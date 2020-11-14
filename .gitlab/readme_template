@@ -1,4 +1,4 @@
-[![$GITHUB_REPONAME](img/$GITHUB_REPONAME_header.png)](https://github.com/$CREATOR_USERNAME/$CREATOR_REPONAME)
+[![$GITHUB_REPONAME](img/$GITHUB_REPONAME_HEADER)](https://github.com/$CREATOR_USERNAME/$CREATOR_REPONAME)
 
 ---
 
@@ -13,7 +13,7 @@ $GITHUB_REPONAME
 
 $DESCRIPTION
 
-[![$CREATOR_REPONAME](img/$GITHUB_REPONAME_screenshot.png)](https://github.com/$CREATOR_USERNAME/$CREATOR_REPONAME)
+[![$CREATOR_REPONAME](img/$GITHUB_REPONAME_SCREENSHOT)](https://github.com/$CREATOR_USERNAME/$CREATOR_REPONAME)
 
 ---
 
@@ -23,6 +23,11 @@ The lsiobase/$BASE_IMAGE image is a custom base image built with [Alpine linux](
 Using this image allows us to use the same user/group ids in the container as on the host, making file transfers much easier
 
 ## Deployment
+
+Tags | Description
+-----|------------
+`latest` | Using the `latest` tag will pull the latest image for amd64/x86_64 architecture.
+`arm` | Using the `arm`tag will pull the latest image for arm architecture. Use this if you intend on running the container on a Raspberry Pi 3B, for example.
 
 ### Pre-built images
 
