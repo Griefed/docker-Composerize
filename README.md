@@ -1,4 +1,4 @@
-[![docker-template-repo](img/docker-Composerize_header.png)](https://github.com/Griefed/template)
+[![docker-template-repo](img/docker-Composerize_header.png)](https://github.com/username/docker-template-repo)
 
 ---
 
@@ -17,9 +17,9 @@ This is an example description for the docker-template-repo. This text should be
 
 ---
 
-Creates a Container which runs [Griefed's](https://github.com/Griefed) [template](https://github.com/Griefed/template), with [lsiobase/](https://hub.docker.com/r/lsiobase/) as the base image, as seen on https://www.example.com.
+Creates a Container which runs [Griefed's](https://github.com/Griefed) [template](https://github.com/Griefed/template), with [lsiobase/nginx](https://hub.docker.com/r/lsiobase/nginx) as the base image, as seen on https://www.example.com.
 
-The lsiobase/ image is a custom base image built with [Alpine linux](https://alpinelinux.org/) and [S6 overlay](https://github.com/just-containers/s6-overlay).
+The [lsiobase/nginx](https://hub.docker.com/r/lsiobase/nginx) image is a custom base image built with [Alpine linux](https://alpinelinux.org/) and [S6 overlay](https://github.com/just-containers/s6-overlay).
 Using this image allows us to use the same user/group ids in the container as on the host, making file transfers much easier
 
 ## Deployment
